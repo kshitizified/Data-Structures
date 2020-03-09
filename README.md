@@ -1,2 +1,2 @@
 # Data-Structures
-This repository contains different data structures' implementation
+This repository contains different data structures' implementation in Java
