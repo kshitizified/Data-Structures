@@ -8,7 +8,7 @@ class Node{
     }
 }
 
-public class Main {
+public class CircularSingleLinkedList {
    // head and tail of the linked list
     Node head;
     Node tail;
@@ -228,7 +228,7 @@ public class Main {
     }
  
     public static void main(String[] args) throws Exception {
-        Main ll = new Main();
+        CircularSingleLinkedList ll = new CircularSingleLinkedList();
         ll.addNode(1);
         ll.addNode(2);
         ll.addNode(3);
