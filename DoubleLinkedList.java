@@ -11,7 +11,7 @@ class Node{
     }
 }
 
-public class Main {
+public class DoubleLinkedList {
     
     // the head and tail of the linked list
     Node head;
@@ -256,7 +256,7 @@ public class Main {
     }
     
     public static void main(String[] args) throws Exception {
-       Main ll = new Main();
+       DoubleLinkedList ll = new DoubleLinkedList();
        ll.addNode(1);
        ll.addNode(2);
        ll.addNode(3);
