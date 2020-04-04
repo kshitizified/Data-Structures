@@ -1,4 +1,4 @@
-public class Stack {
+public class StackUsingArray {
     // The Array used to implement stack
     int[] arr;
     // topOfStack is used to maintain the index of the topmost element present in stack. If not present then it will store -1
@@ -109,7 +109,7 @@ public class Stack {
     }
  
     public static void main(String[] args) throws Exception {
-        Stack stack = new Stack(5);
+        StackUsingArray stack = new StackUsingArray(5);
         stack.initializeArray();
         stack.peek();
         stack.pop();
