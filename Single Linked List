@@ -275,3 +275,16 @@ public class Main {
         ll.traverse();
     }
 }
+ /*  ======= Output ==============
+ 
+1 
+1 2 
+1 2 15 5 
+found 1 in linked list
+Not found 10 in linked list
+2 15 5 
+Node not present in linked list, hence can't delete
+2 15 5 
+Linked List is empty
+
+ ===================================== /*
