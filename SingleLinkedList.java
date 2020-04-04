@@ -8,7 +8,7 @@ class Node{
     }
 }
 
-public class Main {
+public class SingleLinkedList {
  
     // head and tail of linked list
     // we are maintaining a tail pointer too, as it helps us in inserting at the last of linked list very //easy
@@ -257,7 +257,7 @@ public class Main {
     }
  
     public static void main(String[] args) throws Exception {
-        Main ll = new Main();
+        SingleLinkedList ll = new SingleLinkedList();
         ll.addNode(1);
         ll.traverse();
         ll.addNode(2);
