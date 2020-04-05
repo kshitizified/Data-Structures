@@ -5,7 +5,7 @@ public class StackUsingArray {
     int topOfStack;
  
     // constructor
-    Main(int size){
+    StackUsingArray(int size){
         this.arr = new int[size];
         this.topOfStack=-1;
     }
