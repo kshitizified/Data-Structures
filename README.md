@@ -1,4 +1,4 @@
-# Data-Structures
+# Data-Structures and Algoritms with Java
 
 ### What is this repository for? ###
 
