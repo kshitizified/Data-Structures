@@ -16,7 +16,7 @@ class TreeNode{
 }
 
 
-public class BinaryTree {
+public class BinaryTreeUsingLinkedList {
  
     // root of binary tree
     TreeNode root;
@@ -363,7 +363,7 @@ public class BinaryTree {
     }
  
     public static void main(String[] args) throws Exception {
-        BinaryTree bTree = new BinaryTree();
+        BinaryTreeUsingLinkedList bTree = new BinaryTreeUsingLinkedList();
         bTree.addNode(20);
         bTree.addNode(100);
         bTree.addNode(3);
