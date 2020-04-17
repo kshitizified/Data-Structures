@@ -307,3 +307,28 @@ public class BinarySearchTree {
         bst.deleteBinarySearchTree();
     }
 }
+
+/* ========================================= OUTPUT ===================================
+
+Inorder Traversal...
+40 50 60 70 80 90 100 150 155 160 170 200 300 400 407 
+PreOrder Traversal...
+100 80 70 50 40 60 90 200 150 160 155 170 300 400 407 
+PostOrder Traversal...
+40 60 50 70 90 80 155 170 160 150 407 400 300 200 100 
+Level Order Traversal...
+100 80 200 70 90 150 300 50 160 400 40 60 155 170 407 
+Node with given value: 4 not found in binary search tree
+Node with given value: 24 not found in binary search tree
+Node with given value: 170 found in binary search tree
+Data: 170
+Node with given value: 3 is not present in binary search tree, hence can't delete
+Level Order Traversal...
+100 80 200 70 90 150 300 50 160 400 40 60 155 170 407 
+Node with given data: 100 deleted successfully from binary search tree
+Level Order Traversal...
+150 80 200 70 90 160 300 50 155 170 400 40 60 407 
+Binary Search Tree deleted successfully
+Binary search tree doesn't exists, hence can't delete it
+
+===============================================================================================*/
