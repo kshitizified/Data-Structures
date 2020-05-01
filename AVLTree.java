@@ -17,7 +17,7 @@ class TreeNode{
     }
 }
 
-public class Main {
+public class AVLTree {
 
 // Root of AVL tree
     TreeNode root;
@@ -329,28 +329,28 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        Main AVLTree = new Main();
-        AVLTree.addNode(30);
-        AVLTree.addNode(10);
-        AVLTree.addNode(5);
-        AVLTree.addNode(3);
-        AVLTree.addNode(4);
-        AVLTree.addNode(50);
-        AVLTree.addNode(65);
-        AVLTree.addNode(1);
-        AVLTree.levelOrderTraversal();
-        AVLTree.deleteNode(4);
-        AVLTree.levelOrderTraversal();
-        AVLTree.deleteNode(65);
-        AVLTree.addNode(70);
-        AVLTree.addNode(80);
-        AVLTree.levelOrderTraversal();
+        AVLTree avlTree = new AVLTree();
+        avlTree.addNode(30);
+        avlTree.addNode(10);
+        avlTree.addNode(5);
+        avlTree.addNode(3);
+        avlTree.addNode(4);
+        avlTree.addNode(50);
+        avlTree.addNode(65);
+        avlTree.addNode(1);
+        avlTree.levelOrderTraversal();
+        avlTree.deleteNode(4);
+        avlTree.levelOrderTraversal();
+        avlTree.deleteNode(65);
+        avlTree.addNode(70);
+        avlTree.addNode(80);
+        avlTree.levelOrderTraversal();
         System.out.println();
         System.out.println("Searching...");
         System.out.println(AVLTree.searchNode(AVLTree.root,80).data);
-        AVLTree.deleteCompleteAVLTree();
-        AVLTree.deleteCompleteAVLTree();
-        AVLTree.levelOrderTraversal();
+        avlTree.deleteCompleteAVLTree();
+        avlTree.deleteCompleteAVLTree();
+        avlTree.levelOrderTraversal();
 
     }
 
