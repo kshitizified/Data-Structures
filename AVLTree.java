@@ -347,7 +347,7 @@ public class AVLTree {
         avlTree.levelOrderTraversal();
         System.out.println();
         System.out.println("Searching...");
-        System.out.println(AVLTree.searchNode(AVLTree.root,80).data);
+        System.out.println(avlTree.searchNode(avlTree.root,80).data);
         avlTree.deleteCompleteAVLTree();
         avlTree.deleteCompleteAVLTree();
         avlTree.levelOrderTraversal();
