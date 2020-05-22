@@ -14,7 +14,7 @@ class GraphNode{
     
 }
 
-public class BFSGraphAdjacencyMatrix{
+public class BFSTraversalGraphAdjacencyMatrix{
     
     // A List to store the address of all the nodes of the graph
     ArrayList<GraphNode> nodeList = new ArrayList<GraphNode>();
@@ -23,7 +23,7 @@ public class BFSGraphAdjacencyMatrix{
     int [][] adjacencyMatrix;
     
     // Constructor
-    BFSGraphAdjacencyMatrix(ArrayList<GraphNode> nodeList){
+    BFSTraversalGraphAdjacencyMatrix(ArrayList<GraphNode> nodeList){
         this.nodeList = nodeList;
         this.adjacencyMatrix = new int[nodeList.size()][nodeList.size()];
     }
@@ -108,7 +108,7 @@ public class BFSGraphAdjacencyMatrix{
 		}
 		
 		// finally adding all nodes to Main nodeList using constructor
-		BFSGraphAdjacencyMatrix graph = new BFSGraphAdjacencyMatrix(nodeList);
+		BFSTraversalGraphAdjacencyMatrix graph = new BFSTraversalGraphAdjacencyMatrix(nodeList);
 		
 	/*	undirected and Unweighted Graph used for this code  :
 	
