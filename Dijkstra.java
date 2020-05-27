@@ -120,7 +120,8 @@ public class Dijkstra {
         }
         
         // Now adding directed weighted edges between nodes
-        graph.addDirectedWeightedEdge(1,3,6); //Add V1 -> V3 , weight 6
+	    // Diagram for the graph used can be found on the top of this post: https://theheapspace.blogspot.com/2020/05/single-source-shortest-path-dijkstras.html
+        	graph.addDirectedWeightedEdge(1,3,6); //Add V1 -> V3 , weight 6
 		graph.addDirectedWeightedEdge(1,4,6); //Add V1 -> V4 , weight 6
 		graph.addDirectedWeightedEdge(2,1,3); //Add V2 -> V1 , weight 3
 		graph.addDirectedWeightedEdge(3,4,2); //Add V3 -> V4 , weight 2
